@@ -13,3 +13,5 @@ Implementation of a Forgetting Map
 - Testing
 -- Basic, functional scenarios have been covered, but more detailed edge tests would ideally be added.
 -- Some kind of performance test would also be useful, possibly including scenarios that would identify issues of thread safety, but the latter kind of tests are often complext to implement and rarely deterministic.
+- Refactor
+-- The code is not easily extended as is, so some refactoring to, say a builder pattern for the underlying map, would allow easier implementation of different eviction policies.
